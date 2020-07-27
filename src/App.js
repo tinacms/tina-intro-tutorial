@@ -14,14 +14,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>{data.title}</h1>
         <p>{data.body}</p>
-        <a
-          className="App-link"
-          href="https://tinacms.org/docs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn More
-        </a>
+        <button onClick={() => window.alert("Tina isn't configured yet!")}>
+          Edit This Site
+        </button>
       </header>
     </div>
   );
