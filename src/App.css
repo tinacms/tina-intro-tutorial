@@ -28,7 +28,7 @@
   margin: 2rem 0 0 0;
 }
 
-button {
+.App-header button {
   color: #ec4815;
   text-decoration: underline;
   border: 1.5px solid #ec4815;
