@@ -1,22 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Icon.svg';
 import './App.css';
 
 function App() {
+  const data = {
+    title: 'Tina is not a CMS',
+    body: 'It is a toolkit for creating a custom CMS.',
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>{data.title}</h1>
+        <p>{data.body}</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://tinacms.org/docs"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn More
         </a>
       </header>
     </div>
