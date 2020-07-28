@@ -3,11 +3,6 @@ import logo from './Icon.svg';
 import './App.css';
 
 function App() {
-  const data = {
-    title: 'Tina is not a CMS',
-    body: 'It is a toolkit for creating a custom CMS.',
-  };
-
   return (
     <div className="App">
       <header className="App-header">
@@ -29,3 +24,8 @@ function EditButton() {
     </button>
   );
 }
+
+const data = {
+  title: 'Tina is not a CMS',
+  body: 'It is a toolkit for creating a custom CMS.',
+};
