@@ -14,12 +14,18 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>{data.title}</h1>
         <p>{data.body}</p>
-        <button onClick={() => window.alert("Tina isn't configured yet!")}>
-          Edit This Site
-        </button>
+        <EditButton />
       </header>
     </div>
   );
 }
 
 export default App;
+
+function EditButton() {
+  return (
+    <button onClick={() => window.alert("Tina isn't configured yet!")}>
+      Edit This Site
+    </button>
+  );
+}
