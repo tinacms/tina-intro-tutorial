@@ -5,17 +5,28 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>{data.title}</h1>
-        <p>{data.body}</p>
-        <EditButton />
-      </header>
+      <PageContent />
     </div>
   );
 }
 
 export default App;
+
+const data = {
+  title: 'Tina is not a CMS',
+  body: 'It is a toolkit for creating a custom CMS.',
+};
+
+function PageContent() {
+  return (
+    <section className="App-header">
+      <img src={logo} className="App-logo" alt="logo" />
+      <h1>{data.title}</h1>
+      <p>{data.body}</p>
+      <EditButton />
+    </section>
+  );
+}
 
 function EditButton() {
   return (
@@ -24,8 +35,3 @@ function EditButton() {
     </button>
   );
 }
-
-const data = {
-  title: 'Tina is not a CMS',
-  body: 'It is a toolkit for creating a custom CMS.',
-};
