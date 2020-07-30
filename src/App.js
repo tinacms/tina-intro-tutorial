@@ -12,7 +12,7 @@ function App() {
 
 export default App;
 
-const data = {
+const pageData = {
   title: 'Tina is not a CMS',
   body: 'It is a toolkit for creating a custom CMS.',
 };
@@ -21,8 +21,8 @@ function PageContent() {
   return (
     <section className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <h1>{data.title}</h1>
-      <p>{data.body}</p>
+      <h1>{pageData.title}</h1>
+      <p>{pageData.body}</p>
       <EditButton />
     </section>
   );
