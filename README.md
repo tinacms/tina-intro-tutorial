@@ -13,8 +13,9 @@ The tutorial covers: [Installing _tinacms_](https://tinacms.org/docs/getting-sta
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
-
+In the project directory, you can install the dependencies with [yarn](https://yarnpkg.com/):
+### `yarn install`
+Then, you can run with:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
